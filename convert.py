@@ -24,7 +24,7 @@ def convert_temp(unit_in, unit_out, temp):
         return(f"{unit_in}")
     if(unit_out != "f" and unit_out != "c"):
         return(f"{unit_out}")
-
+ 
 def c2f(temp):
     return temp * 9/5 + 32
 
